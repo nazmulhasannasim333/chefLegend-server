@@ -20,5 +20,5 @@ app.get("/chefCategories/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`ChefLegend is running on port ${port}`);
+  console.log(`ChefLegend is running on port: ${port}`);
 });
