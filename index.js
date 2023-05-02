@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/chefCategories", (req, res) => {
-  res.send(chefCategories);
+  res.send(chefCategorie);
 });
 app.get("/chefCategories/:id", (req, res) => {
   const id = req.params.id;
